@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 12px auto;
+}  
+
+.search-box {
+    display: flex;
+    height: 52px;
+    margin: auto 24px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+input, input:hover, input:focus, input:active {
+    min-width: 200px;
+    background: transparent;
+    border: 0;
+    border-style: none;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+input::placeholder {
+    color: #808080; 
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.right-search-bar {
+    width: 380px;
+}
+
+.icon-margin {
+    margin: auto 8px;
+}
+
+.profile-wrapper {
+    width: 130px;
+    margin: auto 0 auto 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}

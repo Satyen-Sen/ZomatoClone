@@ -1,0 +1,31 @@
+.tab-options {
+    display: flex;
+    align-items: center;
+    margin: 12px auto;
+}
+
+.tab-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+    border-bottom: 2px solid;
+}
+
+.img-container {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-title {
+    font-size: 20px;
+    font-weight: 600;
+    width: 130px;
+}
