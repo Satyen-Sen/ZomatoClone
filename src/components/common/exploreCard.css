@@ -1,0 +1,115 @@
+.explore-card {
+    margin: 12px 0 24px 0;
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+}
+
+.explore-card-cover {
+    border-radius: 16px;
+    position: relative;
+}
+
+.delivery-time {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    opacity: 0.8;
+    background-color: #FFFFFF;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.tag {
+    position: absolute;
+    left: 0px;
+    width: fit-content;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 0px 8px;
+    border-radius: 0px 2px 2px 0px;
+}
+
+.pro-off {
+    bottom: 48px;
+    background-color: #EF4F5F;
+}
+
+.discount {
+    bottom: 20px;
+    background-color: #0077FF;
+}
+
+.res-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.res-name {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1C1C1C;
+    
+}
+
+.res-rating {
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color : #FFFFFF;
+    background-color: #008011;
+    border-radius: 4px;
+}
+
+.res-cuisines { 
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.res-cuisines-tag {
+    margin-right: 4px;
+    color: #4D4D4D;
+}
+
+.res-price {
+    font-size: 14px;
+    color: #4D4D4D;
+}
+
+.explore-bottom {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.res-bottom-text {
+    font-size: 12px;
+    color: #4D4D4D;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+}
+
+.card-separator {
+    height: 1px;
+    margin: 6px 0px;
+    background-color: #E5E5E5;
+}
+
+.explore-card:hover {
+    background-color: #FFFFFF;
+    border: 2px solid rgb(28 28 28 / 14%);
+    box-shadow: rgb(28 28 28 / 24%) 2px 2px 10px 2px;
+}

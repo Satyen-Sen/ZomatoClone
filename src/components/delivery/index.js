@@ -7,7 +7,7 @@ import arrowImg from '../../images/down_arrow_gery.png'
 import DeliveryCollections from './DeliveryCollections'
 import TopBrands from './TopBrands'
 import ExploreSection from '../common/ExploreSection'
-
+import { restaurants } from '../../data/restaurants'
 
 const filterArray = [
     {
@@ -40,6 +40,8 @@ const filterArray = [
     },
 ]
 
+const restaurantList = restaurants; 
+
 export default function Delivery() {
     return (
         <div>
@@ -52,7 +54,7 @@ export default function Delivery() {
             </div>
             <DeliveryCollections/>
             <TopBrands/>
-            <ExploreSection collectionName='Delivery Restaurants in Mumbai'/>
+            <ExploreSection collectionName='Delivery Restaurants in Mumbai' list={restaurantList}/>
         </div>
     )
-}
+} 
