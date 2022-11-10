@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick"
-import NextArrow from '../common/NextArrow'
-import PrevArrow from '../common/PrevArrow'
+import NextArrow from './NextArrow'
+import PrevArrow from './PrevArrow'
 
 const topBrandsCollection = [
     {   
@@ -71,7 +71,7 @@ const settings = {
     slidesToShow: 6,
     slidesToScroll: 1,
     nextArrow: <NextArrow/>,
-    prevArrow: <PrevArrow/>
+    prevArrow: <PrevArrow/>,
 }; 
 
 

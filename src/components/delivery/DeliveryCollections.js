@@ -23,7 +23,7 @@ const settings = {
     slidesToShow: 6,
     slidesToScroll: 1,
     nextArrow: <NextArrow/>,
-    prevArrow: <PrevArrow/>
+    prevArrow: <PrevArrow/>,
 }; 
 
 
