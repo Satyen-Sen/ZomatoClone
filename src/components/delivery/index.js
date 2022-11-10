@@ -9,7 +9,7 @@ import TopBrands from './TopBrands'
 import ExploreSection from '../common/ExploreSection'
 import { restaurants } from '../../data/restaurants'
 
-const filterArray = [
+const deliveryFilters = [
     {
         id : 1,
         icon : filterImg,
@@ -46,7 +46,7 @@ export default function Delivery() {
     return (
         <div>
             <div className='filters'>
-                {filterArray && filterArray.map( (item) => { return (
+                {deliveryFilters && deliveryFilters.map( (item) => { return (
                     <div key={item.id}>
                         <FilterItem icon={item.icon} title={item.title} endIcon={item.end_icon}/>
                     </div>

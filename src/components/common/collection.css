@@ -1,0 +1,50 @@
+.colection-wrapper {
+    background-color: #F8F8F8;
+    margin: 0px -124px;
+    padding: 8px 124px;
+}
+
+.collection-subtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-right: 16px;
+}
+
+.collection-subtitle-text {
+    color: #6C6C6C;
+    font-size: 18px;
+}
+
+.collection-location {
+    font-size: 18px;
+    color: #EF4F5F;
+}
+
+.collection-cover {
+    margin-right: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.collection-image {
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.collection-card-title {
+    position: absolute;
+    bottom: 56px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: #FFFFFF;   
+}
+
+.collection-card-subtitle {
+    position: absolute;
+    bottom: 24px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+}

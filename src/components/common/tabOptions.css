@@ -1,7 +1,7 @@
 .tab-options {
     display: flex;
     align-items: center;
-    margin: 12px auto;
+    margin: 12px auto 0px auto;
 }
 
 .tab-item {
