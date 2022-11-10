@@ -1,6 +1,7 @@
 # Zomato Clone Web App
 
 This project was created for educational purposes only, with the help of ReactJs.
+Inspiration - https://www.zomato.com/mumbai
 
 
 
