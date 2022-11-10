@@ -33,10 +33,9 @@ export default function Collection({list}) {
             <Slider {...settings}>
                 {list.map( (item) => {
                     return (
-                        <div> 
-                            <div className='collection-cover'>
-                                <img src={item.cover} className='collection-image' alt={item.title} height={320} width={260}/>
-                            </div>
+                        <div className='collection-cover'>
+                            <img src={item.cover} className='collection-image' alt={item.title} height={320} width={260}/>
+                            <div className='dark-overlay'></div>
                             <div className='collection-card-title'>{item.title}</div>
                             <div className='collection-card-subtitle'>{item.places} Places</div>
                         </div>

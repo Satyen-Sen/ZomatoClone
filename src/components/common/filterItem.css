@@ -17,3 +17,8 @@
 .filter-title {
     margin-left: 4px;
 }
+
+.filter-item:hover {
+    background-color: #F8F8F8;
+    cursor: pointer;
+}

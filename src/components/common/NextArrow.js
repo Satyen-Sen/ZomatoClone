@@ -10,9 +10,8 @@ export default function NextArrow(props) {
             style={{ 
                 zIndex:5, 
                 right:0,
-                top:88, 
-                height:30,
-                width:30,
+                height:35,
+                width:35,
                 backgroundColor:'#FFFFFF',
                 borderRadius:'50%', 
                 boxShadow:'rgb(28 28 28 / 24%) 2px 4px 10px 2px',
@@ -22,7 +21,7 @@ export default function NextArrow(props) {
                 alignItems:'center'
             }}
         >
-            <img src={arrowRight} alt='arrowRight' height={25} width={25} style={{position:'absolute', top:2, right:1,}}/>
+            <img src={arrowRight} alt='arrowRight' height={25} width={25} style={{position:'absolute'}}/>
         </div>
     )
 }

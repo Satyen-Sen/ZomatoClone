@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick"
-import NextArrow from '../common/NextArrow'
-import PrevArrow from '../common/PrevArrow'
+import NextArrow from './NextArrow'
+import PrevArrow from './PrevArrow'
 
 const deliveryItems = [
   {id:1,  title:'Pizza',    cover:'https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png',},
